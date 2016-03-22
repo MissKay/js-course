@@ -70,19 +70,19 @@ var context = canvas.getContext(“2d”);
 Now let's make that into a function
 ```
 function draw() {
-	var canvas = document.getElementById(“canvas”);
-	canvas.width = 800;
-	canvas.height = 800;
-	var context = canvas.getContext(“2d”);
+  var canvas = document.getElementById(“canvas”);
+  canvas.width = 800;
+  canvas.height = 800;
+  var context = canvas.getContext(“2d”);
 }
 ```
 We want to actually show an actual object, so let's fill in the object like a box
 ```
 function draw() {
-	var canvas = document.getElementById("canvas");
+  var canvas = document.getElementById("canvas");
   canvas.width = 800;
   canvas.height = 800;
-	var context = canvas.getContext("2d");
+  var context = canvas.getContext("2d");
   context.fillRect(10,10, 100, 200);
 }
 ```
@@ -90,10 +90,10 @@ function draw() {
 Finally, it just needs to be added to the page
 ```
 function draw() {
-	var canvas = document.getElementById("canvas");
+  var canvas = document.getElementById("canvas");
   canvas.width = 800;
   canvas.height = 800;
-	var context = canvas.getContext("2d");
+  var context = canvas.getContext("2d");
   context.fillRect(10,10, 100, 200);
 }
 
@@ -102,11 +102,11 @@ window.onload = draw();
 Add another color to it using the fillStyle() method
 ```
 function draw() {
-	var canvas = document.getElementById("canvas");
+  var canvas = document.getElementById("canvas");
   canvas.width = 800;
   canvas.height = 800;
-	var context = canvas.getContext("2d");
-	context.fillStyle = "blue";
+  var context = canvas.getContext("2d");
+  context.fillStyle = "blue";
   context.fillRect(10,10, 100, 200);
 }
 
