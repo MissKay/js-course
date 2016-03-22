@@ -3,7 +3,7 @@
 Definition: Functions are "self contained" modules of code that accomplish a specific task. Functions usually "take in" data, process it, and "return" a result. Once a function is written, it can be used over and over and over again. Functions can be "called" from the inside of other functions.
 
 ## Function Types
-Regular Ole’ Function
+Regular Ole' Function
 ```
 function sayHello(name) {
 	return ‘Hello ‘ + name;
@@ -32,10 +32,10 @@ function Friend(name) {
 }
 
 Friend.prototype.sayName = function() {
-	return “My friend’s name is “ + this.name;
+	return “My friend's name is “ + this.name;
 }
 
-var billy = new Friend(‘Billy’);
+var billy = new Friend(‘Billy');
 billy.sayName();
 ```
 
@@ -50,24 +50,24 @@ function Animal(name) {
 }
 ```
 
-## Let’s Draw on Canvas
+## Let's Draw on Canvas
 First, we need to create the canvas to be able to draw on it.
 ```
 <canvas id=“canvas”></canvas>
 ```
-Now it’s JavaScript from here on!
+Now it's JavaScript from here on!
 ```
 var canvas = document.getElementById(“canvas”);
 var context = canvas.getContext(“2d”);
 ```
-Let’s give it a width and height
+Let's give it a width and height
 ```
 var canvas = document.getElementById(“canvas”);
 canvas.width = 800;
 canvas.height = 800;
 var context = canvas.getContext(“2d”);
 ```
-Now let’s make that into a function
+Now let's make that into a function
 ```
 function draw() {
 	var canvas = document.getElementById(“canvas”);
@@ -76,7 +76,7 @@ function draw() {
 	var context = canvas.getContext(“2d”);
 }
 ```
-We want to actually show an actual object, so let’s fill in the object like a box
+We want to actually show an actual object, so let's fill in the object like a box
 ```
 function draw() {
 	var canvas = document.getElementById("canvas");
@@ -112,7 +112,7 @@ function draw() {
 
 window.onload = draw();
 ```
-## Let’s draw some other shapes!
+## Let's draw some other shapes!
 We will begin with a triangle. First create the triangle function.
 ```
 function triangle() {
@@ -126,7 +126,7 @@ Now change the onload function to take the triangle function.
 ```
 window.onload = triangle();
 ```
-Now that we have our canvas, let’s start to draw lines on the canvas to create our triangle.
+Now that we have our canvas, let's start to draw lines on the canvas to create our triangle.
 ```
 function triangle() {
 	var canvas = document.getElementById(“canvas”);
@@ -191,7 +191,7 @@ function triangle() {
 	context.fill();
 }
 ```
-Let’s do the same thing, but this time we will create a pyramid.
+Let's do the same thing, but this time we will create a pyramid.
 ```
 function pyramid() {
 	var canvas = document.getElementById(“canvas”);
@@ -204,7 +204,7 @@ Remember to change the unload function to pyramid now.
 ```
 window.onload = pyramid();
 ```
-Let’s now move the cursor to where we want it to be.
+Let's now move the cursor to where we want it to be.
 ```
 function pyramid() {
 	var canvas = document.getElementById(“canvas”);
@@ -228,7 +228,7 @@ Now we can begin drawing our shape.
 	context.fill();
 ```
 ## Emojis!
-Let’s draw some emojis. We can begin with a happy face!
+Let's draw some emojis. We can begin with a happy face!
 ```
 function smileyFaceEmoji() {
 	var canvas = document.getElementById(“canvas”);
@@ -241,7 +241,7 @@ Remember to change unload to this function
 ```
 window.onload = smileyFaceEmoji();
 ```
-Now let’s draw our face
+Now let's draw our face
 ```
 context.beginPath();
 context.arc(200, 200, 200, 0, Math.PI*2, true);
