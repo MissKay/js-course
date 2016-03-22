@@ -30,7 +30,6 @@ var dimensions = document.createElement(‘P');
 dimensions.textConent = width + ‘, ‘ + height;
 
 document.appendChild(dimensions);
-
 ```
 That was okay. Now let's do something that's a bit more interactive. This time we will get the x and y coordinates of the document and display those on the screen as the mouse hovers over the DOM.
 
