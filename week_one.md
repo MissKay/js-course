@@ -24,10 +24,10 @@ JavaScript, and programming languages in general, are tools used to process data
 
 ### Strings
 
-- ‘This is a string'
+- 'This is a string'
 - “This is also a string”
 - `This is a string too`
-- ‘One ' + ‘plus ' + ‘one ‘ + ‘equals ' + ‘two.'
+- 'One ' + 'plus ' + 'one ' + 'equals ' + 'two.'
 
 ### Numbers
 
@@ -61,8 +61,8 @@ JavaScript, and programming languages in general, are tools used to process data
 
 ## Exercises
 
-1. Combine your first, middle, as last name using strings and the plus operator(+). Don't forget to add spaces! I.e. var myname = ‘Adam ‘ + ‘Recvlohe'
-2. Add a string to a set of numbers, i.e. ‘3' + 4 + 5. Then add a set of numbers to a string, i.e. 4 + 5 + ‘6.' What happens?
+1. Combine your first, middle, as last name using strings and the plus operator(+). Don't forget to add spaces! I.e. var myname = 'Adam ' + 'Recvlohe'
+2. Add a string to a set of numbers, i.e. '3' + 4 + 5. Then add a set of numbers to a string, i.e. 4 + 5 + '6.' What happens?
 3. Take two arithmetic expressions and see if they equal one another, i.e. var num1 = 42 / 42; var num2 = 41 % 5; num1 === num2
 4. Write typeof before your variable. What do you get? I.e. typeof myname, typeof num1
 
@@ -94,7 +94,7 @@ JavaScript, and programming languages in general, are tools used to process data
 5.  Add two strings together using concat.
 6.  Take a phrase you want to yell, slice the third word of that phrase and repeat that word using the repeat method.
 7.  Write your name in unicode using the charCodeAt method.
-8.  Check to see if you name includes ‘iron' using the includes method.
+8.  Check to see if you name includes 'iron' using the includes method.
 
 ## Non-primitives
 
@@ -104,51 +104,51 @@ JavaScript, and programming languages in general, are tools used to process data
 - created with a set of values;
 - var array1 = [];
 - var array2 = [1,2,3,4,5,6,7,8,9];
-- var array3 = [‘Joe', ‘John', ‘Jacob', ‘Julia', ‘Janice', ‘Jane' ];
+- var array3 = ['Joe', 'John', 'Jacob', 'Julia', 'Janice', 'Jane' ];
 - Access values using [] syntax
 - For example:
 	- array1[0] //= undefined
 	- array2[1] //= 2
-	- array3[2] //= ‘Jacob'
+	- array3[2] //= 'Jacob'
 - You can assign values using this operator at well. For example:
 	- array1[0] = 0
 	- array2[1] = 0
-	- array3[1] = ‘Adam'
+	- array3[1] = 'Adam'
 
 ## Exercises
 
 1. Create an array of random numbers up to 10. Using the syntax above in how to access values from an array, add up five of those numbers.
-2. Create an array of 5 names. Using the syntax above, write a sentence using the + operator and using three of those names. For example: array3[2] + ‘ likes to play basketball, while ' + array3[1] + ‘likes to play baseball.'
+2. Create an array of 5 names. Using the syntax above, write a sentence using the + operator and using three of those names. For example: array3[2] + ' likes to play basketball, while ' + array3[1] + 'likes to play baseball.'
 
 ### Objects (Object Literals/Hashes)
 - {}
 - created with a set of key/value pairs
 - var object1 = {
-	firstName: ‘Adam',
-	lastName: ‘Recvlohe',
-	middleInitial: ‘E',
+	firstName: 'Adam',
+	lastName: 'Recvlohe',
+	middleInitial: 'E',
 	age: '29',
-	job: ‘Valpak Developer',
-	hometown: ‘St. Pete'
+	job: 'Valpak Developer',
+	hometown: 'St. Pete'
 }
 - var object2 = {
-	0: ‘Bill',
-	1: ‘Blake',
-	2: ‘Billy',
-	3: ‘Bob'
+	0: 'Bill',
+	1: 'Blake',
+	2: 'Billy',
+	3: 'Bob'
 }
 - Access values using the [] or . syntax
 - For example:
-	- object1.firstName //= ‘Adam'
-	- object1[‘lastname'] //= ‘Recvlohe'
-	- object2[0] //= ‘Bill'
+	- object1.firstName //= 'Adam'
+	- object1['lastname'] //= 'Recvlohe'
+	- object2[0] //= 'Bill'
 	- As before, you can assign values in the same way. For example:
-		- object1.favoriteFood = ‘Mexican'
+		- object1.favoriteFood = 'Mexican'
 
 ## Exercises
 
-1. Create an object that describes you as a person. Using the syntax above, write a sentence about yourself and accessing those values. For example: ‘Hello, my name is ‘ + object1.firstName + ‘ ' + object1.lastName + ‘. I am from ' + object1.hometown + ‘.'
-2. Create an object of 3 names. Using the syntax above describing how each person finished the race. For example: object2[3] + ‘came in last place.'
+1. Create an object that describes you as a person. Using the syntax above, write a sentence about yourself and accessing those values. For example: 'Hello, my name is ' + object1.firstName + ' ' + object1.lastName + '. I am from ' + object1.hometown + '.'
+2. Create an object of 3 names. Using the syntax above describing how each person finished the race. For example: object2[3] + 'came in last place.'
 
 ## Methods
 

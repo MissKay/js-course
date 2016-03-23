@@ -17,17 +17,17 @@ My Site        |         |
 We have already worked with the DOM before.
 
 ```
-var canvas = document.getElementById(‘canvas');
+var canvas = document.getElementById('canvas');
 ```
 
-Now let's take what we know and do something a little different. Instead of working on ‘canvas' we are going to interact with the DOM directly. Let's first get the width and height of the DOM window.
+Now let's take what we know and do something a little different. Instead of working on 'canvas' we are going to interact with the DOM directly. Let's first get the width and height of the DOM window.
 
 ```
 var width = window.innerWidth;
 var height = window.innerHeight;
 
-var dimensions = document.createElement(‘P');
-dimensions.textConent = width + ‘, ‘ + height;
+var dimensions = document.createElement('P');
+dimensions.textConent = width + ', ' + height;
 
 document.appendChild(dimensions);
 ```
@@ -57,7 +57,7 @@ function getTimeOfDay() {
 	var hour = date.getHours();
 	var min = date.getMinutes();
 	var sec = date.getSeconds();
-	document.body.innerHTML = ‘' + hour + min + sec;
+	document.body.innerHTML = '' + hour + min + sec;
 	return hour + min + sec;
 }
 ```

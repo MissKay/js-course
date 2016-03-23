@@ -6,7 +6,7 @@ Definition: Functions are "self contained" modules of code that accomplish a spe
 Regular Ole' Function
 ```
 function sayHello(name) {
-	return ‘Hello ‘ + name;
+	return 'Hello ' + name;
 }
 
 sayHello();
@@ -35,7 +35,7 @@ Friend.prototype.sayName = function() {
 	return “My friend's name is “ + this.name;
 }
 
-var billy = new Friend(‘Billy');
+var billy = new Friend('Billy');
 billy.sayName();
 ```
 
