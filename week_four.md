@@ -46,8 +46,8 @@ background changes each second. Here we will use another handy global function c
 ## setInterval Function
 
 ```
- setInterval(function() {
-  return getColor(getTimeOfDay())
+setInterval(function() {
+ return getColor(getTimeOfDay())
 }, 1000)
 ```
 
