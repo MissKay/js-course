@@ -3,7 +3,8 @@
  What is a hex clock you say? A hex clock is a timer that changes a web pages
  color each second. To start let’s create a function that gets the time of day.
 
- ## getTimeOfDay Function
+## getTimeOfDay Function
+ 
 ```
 function getTimeOfDay() {
   var date = new Date()
@@ -27,7 +28,7 @@ date object and from that, we will get the new hours, minutes, and seconds.
 Next, let’s make a function that creates a color based
 on the time we get from the getTimeOfDay function.
 
- ## getColor Function
+## getColor Function
 
 ```
 function getColor(time) {
